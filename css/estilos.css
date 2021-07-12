@@ -1,0 +1,38 @@
+*{
+	font-family: 'Poppins', sans-serif;
+	color: #ECEFF1 
+}
+body{
+	background: #37474F;
+}
+.container{
+	width: 70vw;
+	height: 100vh;
+	margin: 2rem auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.container .listado{
+	width: 100%;
+}
+.listado .cancion{
+	padding: 1rem 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.titulo{
+	flex:6;
+	color: #18FFFF
+}
+.play, .stop, .download{
+	flex: 1;
+	cursor: pointer;
+	
+}
+.volumen{
+	background:  #18FFFF
+}
